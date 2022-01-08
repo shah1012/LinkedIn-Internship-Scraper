@@ -19,9 +19,9 @@ const linkedinUrl =
   await page.click("[type=submit]");
   await page.waitForTimeout(3000);
 
-  const geoId = 103112676;
-  const location = "Chicago, Illinois, United States";
-  let keyword = "Summer 2022 Software Engineer Intern";
+  const geoId = YOURGEOID;
+  const location = YOURLOCATION;
+  let keyword = YOURKEYWORD;
   let count = 0;
 
   await page.goto(
