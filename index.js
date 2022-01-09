@@ -21,7 +21,7 @@ const linkedinUrl =
 
   const geoId = YOURGEOID;
   const location = YOURLOCATION;
-  let keyword = YOURKEYWORD;
+  let keyword = "Summer 2022 Software Engineer Intern";
   let count = 0;
 
   await page.goto(
